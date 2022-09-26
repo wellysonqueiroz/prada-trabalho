@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Nunito:wght@300&family=Quicksand:wght@300&display=swap');
+.bodi {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+   
+}
+.center{
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+.logou{
+    height: 10vh;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    margin-left: -12px;
+}
+h3{
+  
+    font-family: 'Nunito', sans-serif;
+     font-size: 40px;
+     margin-top: -40px;
+     
+}
+h5{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px;
+
+}
+.imgC {
+    transition: 0.5s;
+}
+
+ .img1{
+    height: 70vh;
+    margin-left: 10vh;
+    margin-top: 12vh;
+    border: 1px solid rgba(61, 61, 61, 0.493);
+    display: flex;
+   
+
+} 
+.img2{
+    height: 70vh;
+   margin-left: 5vh;
+   margin-right: 5vh;
+    margin-top: 12vh;
+    border: 1px solid rgba(61, 61, 61, 0.493);
+    display: flex;
+}
+
+.img1:hover,
+.img1:focus
+{
+     border: 1px solid #000; 
+     transition: 1s;
+     box-shadow: 0 0.5em 1em -0.3em rgb(40, 40, 40);
+}
+.img2:hover
+{
+     border: 1px solid #000;     
+     transition: 1s;
+     
+     box-shadow: 0 0.5em 1em -0.3em rgb(40, 40, 40);
+}
+
+
+button{
+    /* background: linear-gradient(90deg, #fff, #f00); */
+    margin-left: 45vh;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    height: 10px;
+    color: rgb(0, 0, 0);
+    transition: 0.30s;
+    cursor: pointer;
+    background-color: rgb(217, 217, 217);
+    border: 0.5px solid rgb(0, 0, 0);
+    line-height: 0.5rem;
+    padding: 1em 1em;
+    position: fixed;
+    border-radius: 2px;
+   /* animation: rotate 2s linear infinite; */
+   
+    
+
+}
+
+/* @keyframes rotate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+    
+} */
+button:hover button:focus{
+  
+    border-color:rgb(0, 27, 232);
+    color: rgb(251, 251, 251);
+}
+.raise:hover,
+.raise:focus{
+   box-shadow: 0 0.5em 0.5em -0.3em rgb(0, 0, 0);
+   transform: translateX(-0.2em);
+
+}
